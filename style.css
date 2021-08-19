@@ -1,0 +1,113 @@
+.navbar-div {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: gray;
+    color: white;
+    font-family: Arial;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-div a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px 10px 50px;
+    font-size: 22px;
+}
+
+.project-title {
+    font-size: 24px;
+}
+
+.top-name {
+    text-align: center;
+    font-size: 66px;
+}
+
+.navbar-div a:hover {
+    background-color: black;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+}
+
+#cell {
+    color: black;
+    padding: 0px 10px 0px 20px
+}
+
+#info {
+    text-align: center;
+    font-size: 18px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#malito-link {
+    color: black;
+    padding: 0px 10px 0px 10px
+}
+
+.section-head {
+    text-align: justify;
+    font-size: 42px;
+}
+
+hr {
+    width: 75%;
+    margin: 0px;
+    border: 1px solid black;
+}
+
+li {
+    padding-top: 5px;
+    font-size: 22px;
+    width: 57%;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.grad-date {
+    display: inline;
+    padding-left: 650px;
+}
+
+.degree {
+    display: inline;
+    font-size: 28px;
+}
+
+.work-date {
+    display: inline;
+    padding-left: 1000px;
+}
+
+#WFM {
+    display: inline;
+    padding-left: 900px;
+}
+
+#bb {
+    display: inline;
+    padding-left: 770px;
+}
+
+#bdl {
+    display: inline;
+    padding-left: 874px;
+}
+
+.bottom-li {
+    text-align: justify;
+    line-height: 1.3;
+}
+
+#lang {
+    padding-left: 38px;
+    font-size: 24px;
+    margin: auto;
+}
