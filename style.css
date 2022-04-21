@@ -1,12 +1,12 @@
 .navbar-div {
-    position: fixed;
+    position: flex;
     width: 100%;
     top: 0px;
     left: 0px;
     background-color: gray;
     color: white;
     font-family: Arial;
-    height: 50px;
+    height: 3.6vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -15,21 +15,18 @@
 .navbar-div a {
     color: white;
     text-decoration: none;
-    padding: 15px 50px 10px 50px;
-    font-size: 22px;
-}
-
-.project-title {
-    font-size: 24px;
+    padding: 2vw;
+    font-size: 1.32em;
 }
 
 .top-name {
+    padding-top: .5vw;
     text-align: center;
-    font-size: 66px;
+    font-size: 3.2vw;
 }
 
 .navbar-div a:hover {
-    background-color: black;
+    color: yellow;
     overflow: hidden;
     height: auto;
     width: auto;
@@ -37,77 +34,93 @@
 
 #cell {
     color: black;
-    padding: 0px 10px 0px 20px
+    padding: 1%;
+    font-size: 1vw;
 }
 
 #info {
     text-align: center;
-    font-size: 18px;
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 2em;
+    font-size: 1.0vw;
 }
 
 #mailto-link {
     color: black;
-    padding: 0px 10px 0px 10px
+    padding: 1%
 }
 
 .section-head {
     text-align: justify;
-    font-size: 42px;
+    font-size: 2.5vw;
 }
 
 hr {
     width: 75%;
     margin: 0px;
-    border: 1px solid black;
+    border: .05vw solid black;
 }
 
 li {
-    padding-top: 5px;
-    font-size: 22px;
+    padding-top: .9vw;
+    font-size: 1.3vw;
     width: 57%;
     text-align: justify;
-    line-height: 1.3;
+    line-height: 1.3vw;
 }
 
 .grad-date {
     display: inline;
-    padding-left: 650px;
+    padding-left: 20vw;
+    font-size: 1.5vw;
 }
 
 .degree {
     display: inline;
-    font-size: 28px;
+    font-size: 1.5vw;
 }
 
 .work-date {
     display: inline;
-    padding-left: 1000px;
+    padding-left: 20vw;
+    font-size: 1.5vw;
 }
 
 #WFM {
     display: inline;
-    padding-left: 900px;
+    padding-left: 50vw;
+    font-size: 1.5vw;
 }
 
 #bb {
     display: inline;
-    padding-left: 770px;
+    padding-left: 40vw;
+    font-size: 1.5vw;
 }
 
 #bdl {
     display: inline;
-    padding-left: 874px;
+    padding-left: 45vw;
+    font-size: 1.5vw;
 }
 
 .bottom-li {
     text-align: justify;
-    line-height: 1.3;
+    line-height: 2vw;
+    font-size: 1.5vw;
+}
+.bottom-li2 {
+    text-align: justify;
+    line-height: 2vw;
+    font-size: 1.5vw;
 }
 
 #lang {
-    padding-left: 38px;
-    font-size: 24px;
+    padding-left: 2vw;
+    font-size: 1.3vw;
     margin: auto;
 }
+h2{
+    font-size: 1.5vw;
+}
+
